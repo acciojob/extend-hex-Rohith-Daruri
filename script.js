@@ -2,7 +2,7 @@ const extendHex = (shortHex) => {
  let start = shortHex.length-3;
 	let iscapital = false;
 	let result ="#";
-	for(int i=start;i<shortHex.length;i++){
+	for(let i=start;i<shortHex.length;i++){
 		let val = shortHex.charAt(i);
 		if(val.charCodeAt(0)>=65&& val.charCodeAt(0)<=90){
 			iscapital = true;
