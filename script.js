@@ -15,6 +15,6 @@ const extendHex = (shortHex) => {
 	return result;
 };
 
-// Do not change the code below.
-// const shortHex = prompt("Enter Short Hex.");
-// alert(extendHex(shortHex));
+Do not change the code below.
+const shortHex = prompt("Enter Short Hex.");
+alert(extendHex(shortHex));
